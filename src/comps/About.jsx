@@ -36,10 +36,10 @@ const About = () => {
     <div style={containerStyle}>
       <h1 style={headingStyle}>About Me</h1>
       <p style={paragraphStyle}>
-        My name is <strong>Adarshan Rai</strong>. I'm learning React and building projects using modern tools.
+        My name is <strong>Adarshan Rai</strong>. and I hate Git.
       </p>
       <p style={paragraphStyle}>
-        React Router DOM is a library that allows React apps to have <strong>navigation without full page reloads</strong>.
+        React Router DOM is a library that allows React apps to have navigation without full page reloads.
         It works by mapping URLs to React components (routes), allowing a smooth single-page app experience.
       </p>
       <p style={paragraphStyle}>
@@ -49,7 +49,7 @@ const About = () => {
         <button
           style={buttonStyle}
           onMouseEnter={buttonHover}
-          onMouseLeave={buttonLeave}
+         
           onClick={() => navigate("/")}
         >
           Go to Home
@@ -57,7 +57,7 @@ const About = () => {
         <button
           style={buttonStyle}
           onMouseEnter={buttonHover}
-          onMouseLeave={buttonLeave}
+          
           onClick={() => navigate("/projects")}
         >
           Go to Projects
